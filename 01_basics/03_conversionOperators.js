@@ -40,3 +40,14 @@ let isString = 33
 let stringConversion = String(isString)
 console.log(typeof(stringConversion))
 console.log(stringConversion)
+
+// ****************** Operations ******************** //
+
+console.log("2" +2) //22
+console.log(2+"4")  //24
+console.log("3" + 4 + 5) //345
+console.log(3 + 4 +"5") //75
+
+
+
+console.log(+true) //1
