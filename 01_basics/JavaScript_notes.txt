@@ -33,4 +33,12 @@ console.log(num2.toPrecision(4))  // Precision taking one arugment as number whi
  - console.log(Math) // Object [Math] {}
  - Math is a object 
  - Math.random() --> it will display values from 0-1 (ex : 0.653, 0.253, 0.098, 0.123)
- 
+
+
+ >> Date : Date is a object in JavaScript
+   let mydate = new Date()
+  console.log(mydate) //2023-08-31T14:32:39.672Z
+  console.log(mydate.toDateString()) //Thu Aug 31 2023
+  console.log(mydate.toISOString())  //2023-08-31T14:34:22.492Z
+  //console.log(mydate.toJSON())
+  console.log(mydate.toLocaleDateString())   //8/31/2023
