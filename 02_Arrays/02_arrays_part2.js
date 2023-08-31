@@ -12,5 +12,16 @@
 //  console.log(`Spread : ${sp_arr}`) //combined 2 arrays together
 
 //Flat 
-const fl_arr = [1,2,[3,4,[5,6,],7],8,[9]]
-console.log(fl_arr.flat(8))
+// const fl_arr = [1,2,[3,4,[5,6,],7],8,[9]]
+// console.log(fl_arr.flat(8))
+
+//From
+// console.log(Array.from("Vishan" + "Neha" +1 +2))
+
+
+//of
+const num1 =10
+const num2= 20
+const num3 =30
+
+console.log(Array.of(num1,num2,num3))  //convert multple variables into a single array
