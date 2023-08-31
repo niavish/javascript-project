@@ -19,3 +19,7 @@ MEMORY :
 Two types of memory in JS
 1. stack memory (--primitive data types comes under stack memoery -- In Stack memory always share the copy of the variable)
 2. Heap memory (--Non-primitive data comes under heap memory --ist takes the refernece of the varibale i.e. Original value)
+
+
+String Interpolation in JavaScript :
+String interpolation is a great programming language feature that allows injecting variables, function calls, arithmetic expressions directly into a string.
