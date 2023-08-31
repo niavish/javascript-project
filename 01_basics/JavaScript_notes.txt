@@ -42,3 +42,21 @@ console.log(num2.toPrecision(4))  // Precision taking one arugment as number whi
   console.log(mydate.toISOString())  //2023-08-31T14:34:22.492Z
   //console.log(mydate.toJSON())
   console.log(mydate.toLocaleDateString())   //8/31/2023
+
+
+  >> Arrays :
+   so javascript arrays will contain all the type of data in a single array 
+   ex:  const arr = new Array(1,2,3,"Neha", "%")
+        console.log(arr)  //[ 1, 2, 3, 'Neha', '%' ]
+
+  *** Interviwe
+   #. slice and splice operations
+    1. Slice : taking 2 arugment as starting index and last index and it does not contain the last index values i.e. its end before that index
+       ex : Before the slice operation array = 1,2,3,Neha,%
+          [ 2, 3, 'Neha' ]
+          After Slice operation array = 1,2,3,Neha,%
+
+    2. Splice : takes 2 arugment as starting and end index. also it deletes that particular index range values and alos reflected to the original value.
+      ex : Before the splice operatio array = 9,8,7,6,5,4,3
+            [ 7, 6, 5, 4, 3 ]
+          After Splice operation array = 9,8
