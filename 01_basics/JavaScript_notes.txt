@@ -64,5 +64,5 @@ console.log(num2.toPrecision(4))  // Precision taking one arugment as number whi
     3. push() : insertion from front
     4. pop() : deletion from last
   **5. concat : combined two arrays and returned one array 
-  **6. Spread : asimailr to concat, which combines 2 arrays into single array
-    7. Flat :  
+  **6. Spread : asimailr to concat, which combines 2 arrays into single array ...arr1, ...arr2
+    7. Flat :  convert multple values into a single array
