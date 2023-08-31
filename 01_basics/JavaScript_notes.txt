@@ -1,5 +1,5 @@
 
- Types of datatype
+>>  Types of datatype
  I. Primitive datatype
    1.number 
    2. bigint //used for larger number
@@ -15,11 +15,22 @@ II. Reference/ non-primitive type
  3. Functions
 
 
-MEMORY :
+>> MEMORY :
 Two types of memory in JS
 1. stack memory (--primitive data types comes under stack memoery -- In Stack memory always share the copy of the variable)
 2. Heap memory (--Non-primitive data comes under heap memory --ist takes the refernece of the varibale i.e. Original value)
 
 
-String Interpolation in JavaScript :
+>> String Interpolation in JavaScript :
 String interpolation is a great programming language feature that allows injecting variables, function calls, arithmetic expressions directly into a string.
+
+
+>> Precision
+const num2 = 76.32423
+console.log(num2.toPrecision(4))  // Precision taking one arugment as number which focus that particular digits 
+
+>> Math 
+ - console.log(Math) // Object [Math] {}
+ - Math is a object 
+ - Math.random() --> it will display values from 0-1 (ex : 0.653, 0.253, 0.098, 0.123)
+ 
