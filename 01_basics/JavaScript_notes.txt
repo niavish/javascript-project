@@ -1,0 +1,21 @@
+
+ Types of datatype
+ I. Primitive datatype
+   1.number 
+   2. bigint //used for larger number
+   3. string=""
+   4. boolen = true/false
+   5. null = standalone value and aslo a datatype
+   6. undefined
+   7. symbole = used to find uniqneness 
+
+II. Reference/ non-primitive type 
+ 1. Array
+ 2. Objects
+ 3. Functions
+
+
+MEMORY :
+Two types of memory in JS
+1. stack memory (--primitive data types comes under stack memoery -- In Stack memory always share the copy of the variable)
+2. Heap memory (--Non-primitive data comes under heap memory --ist takes the refernece of the varibale i.e. Original value)
