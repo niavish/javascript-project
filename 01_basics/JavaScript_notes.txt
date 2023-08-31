@@ -53,10 +53,16 @@ console.log(num2.toPrecision(4))  // Precision taking one arugment as number whi
    #. slice and splice operations
     1. Slice : taking 2 arugment as starting index and last index and it does not contain the last index values i.e. its end before that index
        ex : Before the slice operation array = 1,2,3,Neha,%
-          [ 2, 3, 'Neha' ]
+          console.log(arr1.slice(1,4))  //[ 2, 3, 'Neha' ]
           After Slice operation array = 1,2,3,Neha,%
 
     2. Splice : takes 2 arugment as starting and end index. also it deletes that particular index range values and alos reflected to the original value.
       ex : Before the splice operatio array = 9,8,7,6,5,4,3
-            [ 7, 6, 5, 4, 3 ]
+            console.log(arr2.splice(2, 5))  // [ 7, 6, 5, 4, 3 ]
           After Splice operation array = 9,8
+
+    3. push() : insertion from front
+    4. pop() : deletion from last
+  **5. concat : combined two arrays and returned one array 
+  **6. Spread : asimailr to concat, which combines 2 arrays into single array
+    7. Flat :  

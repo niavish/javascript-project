@@ -7,11 +7,19 @@ const arr2 = new Array(9,8,7,6,5,4,3)
 //console.log(arr)  //[ 1, 2, 3, 'Neha', '%' ]
 
 //Slice
-console.log(`Before the slice operation array = ${arr1}`)
-console.log(arr1.slice(1,4))
-console.log(`After Slice operation array = ${arr1}`)
+// console.log(`Before the slice operation array = ${arr1}`)
+// console.log(arr1.slice(1,4))
+// console.log(`After Slice operation array = ${arr1}`)
 
-//SPILCE
-console.log(`Before the splice operatio array = ${arr2}`)
-console.log(arr2.splice(2, 5))
-console.log(`After Splice operation array = ${arr2}`)
+// //SPILCE
+// console.log(`Before the splice operatio array = ${arr2}`)
+// console.log(arr2.splice(2, 5))
+// console.log(`After Splice operation array = ${arr2}`)
+
+// console.log(arr1.push(10, 3)) insert into front
+ console.log(arr1.pop()) // delettion from last
+// console.log(arr1)
+
+//console.log(arr1.shift())
+//console.log(arr1.unshift())
+console.log(arr1)
