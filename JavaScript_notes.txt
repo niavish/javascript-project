@@ -1,4 +1,6 @@
 
+//To Delte codespace : https://github.com/codespaces
+
 >>  Types of datatype
  I. Primitive datatype
    1.number 
