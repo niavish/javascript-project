@@ -16,7 +16,20 @@ const tinder = {
     name : "JavaScript",
     idLoggedIn : false
 }
-console.log(tinder)
-console.log(Object.keys(tinder))
-console.log(Object.values(tinder))
-console.log(Object.entries(tinder))
+// console.log(tinder)
+// console.log(Object.keys(tinder))
+// console.log(Object.values(tinder))
+// console.log(Object.entries(tinder))
+
+
+////////////////////////// Object de-structure
+const course = {
+    course_name : "JavaScript",
+    fee : 9999,
+    courseInstructor : "Neha"
+}
+
+const {courseInstructor : CI} = course  //de-structure the object
+// console.log(course)
+console.log(CI)
+ 
