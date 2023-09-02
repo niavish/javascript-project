@@ -7,7 +7,16 @@ const obj2 = {5 : "v", 6: "i", 7: "h"}
 
 //Taking new array : 
 const obj3 = Object.assign({},obj1,  obj2)
-console.log(obj3)
+//console.log(obj3)
 
 // const obj4 = {obj1, obj2}
 // console.log(obj4)
+const tinder = {
+    id : "1234",
+    name : "JavaScript",
+    idLoggedIn : false
+}
+console.log(tinder)
+console.log(Object.keys(tinder))
+console.log(Object.values(tinder))
+console.log(Object.entries(tinder))
