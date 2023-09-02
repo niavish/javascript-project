@@ -80,3 +80,9 @@ console.log(num2.toPrecision(4))  // Precision taking one arugment as number whi
     - {} : here empty "{}" is targating array where all the values are stored 
     - In the  above example, object.assign is used to merge multile objects into a single object
     - And Object.assign also return one object so new object is required to store the after merging data.
+
+    >> /* shopping card */
+    // function calculationCard(...num) {      //rest operator for dynamic data handling 
+    //     return num
+    // }
+
