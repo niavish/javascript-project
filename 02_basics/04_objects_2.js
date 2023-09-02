@@ -29,7 +29,9 @@ const course = {
     courseInstructor : "Neha"
 }
 
-const {courseInstructor : CI} = course  //de-structure the object
+const {courseInstructor : CI} = course  //de-structure the object 
+const {course_name:cn}=course
 // console.log(course)
 console.log(CI)
+console.log(cn)
  
