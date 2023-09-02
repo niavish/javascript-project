@@ -68,3 +68,10 @@ console.log(num2.toPrecision(4))  // Precision taking one arugment as number whi
   **5. concat : combined two arrays and returned one array 
   **6. Spread : asimailr to concat, which combines 2 arrays into single array ...arr1, ...arr2
     7. Flat :  convert multple values into a single array
+
+    >> Object
+    we can create objects in two ways either using 1. Singleton and 2. Literals
+    1. Signleton : while creating objcet through Singleton then only one object will be created and we also called as constructor
+
+    2. Literals : with the help of literals will create multiple instances of the object
+    
