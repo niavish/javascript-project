@@ -92,4 +92,6 @@ console.log(num2.toPrecision(4))  // Precision taking one arugment as number whi
  2. let
  3. var : not recommanded to use due to its scope, var value gets changed after the local scope 
 
+ 
+
   

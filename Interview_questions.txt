@@ -33,4 +33,22 @@
         console.log("Un-named IIFE")
     })()
 
->>Q5 : 
+>>Q5 : How amy types of Java script execution?
+ Ans    1. Gloabla execution context
+        2. Function execution context
+        3. Eval execution context 
+
+
+Q6 : How java script code will execute ?
+Ans : 1. JS create global content
+      2. Next it create memory phase
+      3. Memeory phase - In this phase, the variables are set to undefined, until the execution phase (next phase) and the functions are set to their definitions.
+      4. Next it create the execution phase.
+      5. Execution phase : In this phase, the variables are initialsed to given values and when the functions are called, it creates a memory phase and execution phase for the function
+         just like the main one.
+
+         for live demo :
+         browser > inspect > soources 
+         create a snippet with few functions and visually experience the call stack.
+
+        
