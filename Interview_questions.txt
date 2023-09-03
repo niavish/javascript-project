@@ -18,3 +18,19 @@
     /**Impilict way to return object */
         const display = (username) => ( {name : "Neha" })
         console.log(display("Vishan"))
+
+>>Q4 : IIFE stands for ?
+    - Immediately invoked function expressions (IIFE)
+    - global scope ke variable ki wajh se jo poluation hota h, use hatane ke liye hum IIFE use kiya
+    // 1. Named IIFE
+      // 1. Named IIFE
+    (function day() {
+        console.log(`I am named IIFE`)
+    })();
+
+    //2. IIFE
+    (() => {
+        console.log("Un-named IIFE")
+    })()
+
+>>Q5 : 
