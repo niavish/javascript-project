@@ -1,0 +1,4 @@
+>> Q1. global object of window ?
+    - Window is a global object of window
+
+>> Q2 :
