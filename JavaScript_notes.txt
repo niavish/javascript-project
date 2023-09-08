@@ -1,15 +1,15 @@
 
-//To Delte codespace : https://github.com/codespaces
+//To Delete codespace: https://github.com/codespaces
 
 >>  Types of datatype
  I. Primitive datatype
-   1.number 
+   1. number 
    2. bigint //used for larger number
    3. string=""
-   4. boolen = true/false
-   5. null = standalone value and aslo a datatype
+   4. Boolean = true/false
+   5. null = standalone value and also a datatype
    6. undefined
-   7. symbole = used to find uniqneness 
+   7. Symbol = used to find uniqueness 
 
 II. Reference/ non-primitive type 
  1. Array
@@ -19,25 +19,25 @@ II. Reference/ non-primitive type
 
 >> MEMORY :
 Two types of memory in JS
-1. stack memory (--primitive data types comes under stack memoery -- In Stack memory always share the copy of the variable)
-2. Heap memory (--Non-primitive data comes under heap memory --ist takes the refernece of the varibale i.e. Original value)
+1. Stack memory (--primitive data types come under stack memory -- In Stack memory always share the copy of the variable)
+2. Heap memory (--Non-primitive data comes under heap memory --it takes the reference of the variable i.e. Original value)
 
 
 >> String Interpolation in JavaScript :
-String interpolation is a great programming language feature that allows injecting variables, function calls, arithmetic expressions directly into a string.
+String interpolation is a great programming language feature that allows injecting variables, function calls, and arithmetic expressions directly into a string.
 
 
 >> Precision
 const num2 = 76.32423
-console.log(num2.toPrecision(4))  // Precision taking one arugment as number which focus that particular digits 
+console.log(num2.toPrecision(4))  // Precision takes one argument as a number which focuses that particular digits 
 
 >> Math 
  - console.log(Math) // Object [Math] {}
- - Math is a object 
+ - Math is an object 
  - Math.random() --> it will display values from 0-1 (ex : 0.653, 0.253, 0.098, 0.123)
 
 
- >> Date : Date is a object in JavaScript
+ >> Date : Date is an object in JavaScript
    let mydate = new Date()
   console.log(mydate) //2023-08-31T14:32:39.672Z
   console.log(mydate.toDateString()) //Thu Aug 31 2023
@@ -47,51 +47,48 @@ console.log(num2.toPrecision(4))  // Precision taking one arugment as number whi
 
 
   >> Arrays :
-   so javascript arrays will contain all the type of data in a single array 
+   so JavaScript arrays will contain all the types of data in a single array 
    ex:  const arr = new Array(1,2,3,"Neha", "%")
         console.log(arr)  //[ 1, 2, 3, 'Neha', '%' ]
 
-  *** Interviwe
+  *** Interview
    #. slice and splice operations
-    1. Slice : taking 2 arugment as starting index and last index and it does not contain the last index values i.e. its end before that index
+    1. Slice : taking 2 arguments as the starting index and last index and it does not contain the last index values i.e. its end before that index
        ex : Before the slice operation array = 1,2,3,Neha,%
           console.log(arr1.slice(1,4))  //[ 2, 3, 'Neha' ]
           After Slice operation array = 1,2,3,Neha,%
 
-    2. Splice : takes 2 arugment as starting and end index. also it deletes that particular index range values and alos reflected to the original value.
-      ex : Before the splice operatio array = 9,8,7,6,5,4,3
+    2. Splice: takes 2 arguments as starting and end index. also, it deletes that particular index range values and also reflects the original value.
+      ex : Before the splice operation array = 9,8,7,6,5,4,3
             console.log(arr2.splice(2, 5))  // [ 7, 6, 5, 4, 3 ]
           After Splice operation array = 9,8
 
     3. push() : insertion from front
     4. pop() : deletion from last
   **5. concat : combined two arrays and returned one array 
-  **6. Spread : asimailr to concat, which combines 2 arrays into single array ...arr1, ...arr2
-    7. Flat :  convert multple values into a single array
+  **6. Spread : similar to concat, which combines 2 arrays into a single array ...arr1, ...arr2
+    7. Flat :  convert multiple values into a single array
 
     >> Object
     we can create objects in two ways either using 1. Singleton and 2. Literals
-    1. Signleton : while creating objcet through Singleton then only one object will be created and we also called as constructor
+    1. Singleton: while creating an object through Singleton only one object will be created and we also called as constructor
 
-    2. Literals : with the help of literals will create multiple instances of the object
+    2. Literals: with the help of literals will create multiple instances of the object
 
-    **** How to merge mltiple object in JS ?
+    **** How to merge multiple object in JS ?
     -EX : Object.assign({}, obj1, obj2)
-    - {} : here empty "{}" is targating array where all the values are stored 
-    - In the  above example, object.assign is used to merge multile objects into a single object
-    - And Object.assign also return one object so new object is required to store the after merging data.
+    - {} : here empty "{}" is a targeting array where all the values are stored 
+    - In the  above example, object. Assign is used to merge multiple objects into a single object
+    - And Object. assign also return one object so a new object is required to store the after-merging data.
 
     >> /* shopping card */
     // function calculationCard(...num) {      //rest operator for dynamic data handling 
     //     return num
     // }
 
->> SCOPE of varibales : {} is called scope
- we have three types of variables :
+>> SCOPE of variables : {} is called scope
+ We have three types of variables :
  1. const : 
  2. let
- 3. var : not recommanded to use due to its scope, var value gets changed after the local scope 
+ 3. var : not recommended to use due to its scope, var value gets changed after the local scope 
 
- 
-
-  

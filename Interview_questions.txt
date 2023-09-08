@@ -51,4 +51,6 @@ Ans : 1. JS create global content
          browser > inspect > soources 
          create a snippet with few functions and visually experience the call stack.
 
+Q7 :  "HasOwnProperty() 
+Ans : its display the array riginal values, apart from the values which is added externally like (Array.prototype.extraProperty = "Neha")
         
