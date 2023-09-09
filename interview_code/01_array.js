@@ -6,6 +6,6 @@ Array.prototype.extraProperty = "Neha"
 const arr= [10,20,30,40,50]
 
 for (let v in arr) {
-    if (arr.hasOwnProperty(v))
+    if (arr.hasOwnProperty(v)) // hasOwnProperty will display the original values of array 
     console.log(v);
 }
